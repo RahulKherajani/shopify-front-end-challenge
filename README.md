@@ -19,3 +19,14 @@
 
 - Frontend: [React](https://reactjs.org/)
 - API: [CollectionsAPI by OpenAI](https://beta.openai.com/)
+
+## Shopify Challenge
+
+- https://docs.google.com/document/d/1O7mCynsz_cBXkEaCFGSZAuvAOY84QVq35l20xJwjOYg/edit#
+
+## Comments
+
+Additional Tasks Completed:
+
+- Save responses if the user leaves or reloads the page
+- Let the user choose the AI engine from a select box

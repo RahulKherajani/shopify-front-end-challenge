@@ -72,19 +72,27 @@ const Form = () => {
 
   return (
     <div>
+      <h1>Shopify Front End Developer Intern Challenge</h1>
+      <p style={{ fontSize: '1.5em' }}>
+        Made with{' '}
+        <i style={{ margin: '0em 0.5em' }} className='bi bi-heart-fill'></i> by
+        Rahul Kherajani
+      </p>
+      <p style={{ fontSize: '1.5em', cursor: 'pointer' }}>
+        Source Code:{' '}
+        <a href='https://github.com/RahulKherajani/shopify-front-end-challenge.git'>
+          <i style={{ margin: '0em 0.5em' }} className='bi bi-github'></i>
+        </a>
+      </p>
+      <p>Additional Tasks Completed:</p>
+      <ul>
+        <li>Save responses if the user leaves or reloads the page </li>
+        <li>Let the user choose the AI engine from a select box</li>
+      </ul>
+
+      <hr />
       <form>
         <h1> Fun with AI!</h1>
-        <p style={{ fontSize: '1.5em' }}>
-          Made with{' '}
-          <i style={{ margin: '0em 0.5em' }} className='bi bi-heart-fill'></i>{' '}
-          by Rahul Kherajani
-        </p>
-        <p style={{ fontSize: '1.5em', cursor: 'pointer' }}>
-          Source Code:{' '}
-          <a href='https://github.com/RahulKherajani/shopify-front-end-challenge.git'>
-            <i style={{ margin: '0em 0.5em' }} className='bi bi-github'></i>
-          </a>
-        </p>
         <TextArea
           title={'Enter prompt'}
           rows={10}

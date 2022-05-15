@@ -3,7 +3,7 @@ import Form from './container/Form';
 
 function App() {
   return (
-    <div className='container-fluid'>
+    <div className='container'>
       <Form />
     </div>
   );
